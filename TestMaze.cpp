@@ -1,13 +1,16 @@
 #include "TestMaze.h"
 #include <iostream>
 
-TestMaze :: TestMaze() {
+TestMaze :: TestMaze()
+{
 }
 
 // Should load the maze from a text file
 // Here is just creates boundaries with an exit at the bottom
-void TestMaze :: loadMaze(string arquivo) {
-    dimx = 20; dimy = 20;
+void TestMaze :: loadMaze(string arquivo)
+{
+    dimx = 20;
+    dimy = 20;
     for(int i=0; i<dimy; i++)
         for(int j=0; j<dimx; j++)
             lab[i][j] = ' ';
@@ -24,16 +27,29 @@ void TestMaze :: loadMaze(string arquivo) {
 }
 
 // Returns true if the x,y pos is empty
-bool TestMaze :: isEmpty(const Point& pos) const {
+bool TestMaze :: isEmpty(const Point& pos) const
+{
     if(pos.getX()<0 || pos.getX()>=dimx
-                    || pos.getY()<0 || pos.getY()>=dimy) return true;
+            || pos.getY()<0 || pos.getY()>=dimy) return true;
     return (lab[pos.getY()][pos.getX()]==' ');
 }
 
 // Return the maze dimensions
-int TestMaze :: getWidth() { return dimx; }
-int TestMaze :: getHeight() { return dimy; }
+int TestMaze :: getWidth()
+{
+    return dimx;
+}
+int TestMaze :: getHeight()
+{
+    return dimy;
+}
 
-int TestMaze::getRobot() { return robot; }
+int TestMaze::getRobot()
+{
+    return robot;
+}
 
-Point TestMaze::getIniPos() { return posIni; }
+Point TestMaze::getIniPos()
+{
+    return posIni;
+}

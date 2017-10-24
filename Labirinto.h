@@ -1,15 +1,15 @@
-#ifndef TESTMAZE_H
-#define TESTMAZE_H
+#ifndef LABIRINTO_H
+#define LABIRINTO_H
 
 #include <fstream>
 #include "Maze.h"
 
 using namespace std;
 
-class TestMaze : public Maze
+class Labirinto : public Maze
 {
 public:
-    TestMaze();	// Constructor
+    Labirinto();	// Constructor
     bool isEmpty(const Point& ponto) const;
     int  getWidth();
     int  getHeight();

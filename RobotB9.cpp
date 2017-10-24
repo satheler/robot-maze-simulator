@@ -24,19 +24,25 @@ void RobotB9::generateSteps()
     while(!saiu && cont < maxSteps)
     {
         int dx, dy;
-        do {
+        do
+        {
             int dir = rand()%4;
             dx = 0;
             dy = 0;
-            switch(dir) {
-                case 0:	dx = 1;
-                    break;
-                case 1:	dx = -1;
-                    break;
-                case 2:	dy = 1;
-                    break;
-                case 3: dy = -1;
-                    break;
+            switch(dir)
+            {
+            case 0:
+                dx = 1;
+                break;
+            case 1:
+                dx = -1;
+                break;
+            case 2:
+                dy = 1;
+                break;
+            case 3:
+                dy = -1;
+                break;
             }
         }
         while(!maze->isEmpty(Point(x+dx, y+dy)));

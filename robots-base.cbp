@@ -93,7 +93,11 @@
 		</Build>
 		<Unit filename="GL.cpp" />
 		<Unit filename="GL.h" />
+		<Unit filename="Labirinto.cpp" />
+		<Unit filename="Labirinto.h" />
 		<Unit filename="Maze.h" />
+		<Unit filename="Robby.cpp" />
+		<Unit filename="Robby.h" />
 		<Unit filename="Robot.h" />
 		<Unit filename="RobotB9.cpp" />
 		<Unit filename="RobotB9.h" />

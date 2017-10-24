@@ -1,5 +1,5 @@
-#ifndef ROBOTB9_H
-#define ROBOTB9_H
+#ifndef ROBBY_H
+#define ROBBY_H
 
 #include "Maze.h"
 #include "Robot.h"
@@ -7,10 +7,10 @@
 
 using namespace std;
 
-class RobotB9: public Robot
+class Robby: public Robot
 {
 public:
-    RobotB9(const Point& iniPos, Maze*l, int maxSteps);	// Constructor
+    Robby(const Point&, Maze*, int);	// Constructor
     void draw();
     void generateSteps();
     vector<Point> getSteps();

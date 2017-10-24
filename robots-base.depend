@@ -582,3 +582,88 @@
 	<time.h>
 	<iostream>
 
+1401228230 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.cpp
+	"GL.h"
+	<sstream>
+
+1401228144 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1401227658 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Maze.h
+	"Point.h"
+	<string>
+
+1320013446 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Point.h
+
+1401227694 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robot.h
+	<vector>
+	"Point.h"
+
+1401227154 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1508811217 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.cpp
+	"RobotB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1508811214 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1508811201 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.cpp
+	"TestMaze.h"
+	<iostream>
+
+1508811433 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.h
+	<fstream>
+	"Maze.h"
+
+1401227828 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1508824421 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/main.cpp
+	"Labirinto.h"
+	"RobotB9.h"
+	"Robby.h"
+	"GL.h"
+
+1508811223 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1508824358 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.cpp
+	"Robby.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1508811418 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.h
+	<fstream>
+	"Maze.h"
+
+1508824153 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.cpp
+	"Labirinto.h"
+	<iostream>
+
