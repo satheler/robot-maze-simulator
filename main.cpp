@@ -1,5 +1,5 @@
 #include "Labirinto.h"
-#include "RobotB9.h"
+#include "ArTur.h"
 #include "Robby.h"
 #include "GL.h"
 
@@ -23,7 +23,7 @@ int main()
         robo = new Robby(posIni, lab, 200);
         break;
     case 2:
-        robo = new RobotB9(posIni, lab, 200); //robo de teste
+        robo = new ArTur(posIni, lab, 200);
         break;
     case 3:
         cout << "Robo 3" << endl;

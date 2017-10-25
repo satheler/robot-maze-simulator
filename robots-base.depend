@@ -667,3 +667,126 @@
 	"Labirinto.h"
 	<iostream>
 
+1508843197 source:/home/lucas/Documents/pptrabalho4/GL.cpp
+	"GL.h"
+	<sstream>
+
+1508844725 /home/lucas/Documents/pptrabalho4/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/Maze.h
+	"Point.h"
+	<string>
+
+1508843197 /home/lucas/Documents/pptrabalho4/Point.h
+
+1508843197 /home/lucas/Documents/pptrabalho4/Robot.h
+	<vector>
+	"Point.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1508843197 source:/home/lucas/Documents/pptrabalho4/Labirinto.cpp
+	"Labirinto.h"
+	<iostream>
+
+1508843197 /home/lucas/Documents/pptrabalho4/Labirinto.h
+	<fstream>
+	"Maze.h"
+
+1508882199 source:/home/lucas/Documents/pptrabalho4/main.cpp
+	"Labirinto.h"
+	"ArTur.h"
+	"Robby.h"
+	"GL.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/RobotB9.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/Robby.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1508882290 source:/home/lucas/Documents/pptrabalho4/Robby.cpp
+	"Robby.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1508843197 source:/home/lucas/Documents/pptrabalho4/RobotB9.cpp
+	"RobotB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1508843197 source:/home/lucas/Documents/pptrabalho4/TestMaze.cpp
+	"TestMaze.h"
+	<iostream>
+
+1508843197 /home/lucas/Documents/pptrabalho4/TestMaze.h
+	<fstream>
+	"Maze.h"
+
+1508843197 source:/home/lucas/Documents/pptrabalho4/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/GL/glut.h
+	"freeglut.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/GL/freeglut_ext.h
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/jconfig.h
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/jmorecfg.h
+
+1508843197 /home/lucas/Documents/pptrabalho4/include/jerror.h
+
+1508929108 source:/home/lucas/Documents/pptrabalho4/ArTur.cpp
+	"ArTur.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1508929133 /home/lucas/Documents/pptrabalho4/ArTur.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
