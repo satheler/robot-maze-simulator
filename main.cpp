@@ -14,16 +14,16 @@ int main()
 
     Point posIni = lab->getIniPos();
     cout << "Starting pos: " << posIni.getX() << " , " << posIni.getY() << endl;
-
+    int maxSteps = 1000;
     Robot* robo;
 
     switch(lab->getRobot())
     {
     case 1:
-        robo = new Robby(posIni, lab, 200);
+        robo = new Robby(posIni, lab, maxSteps);
         break;
     case 2:
-        robo = new ArTur(posIni, lab, 200);
+        robo = new ArTur(posIni, lab, maxSteps);
         break;
     case 3:
         cout << "Robo 3" << endl;

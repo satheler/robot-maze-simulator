@@ -11,7 +11,7 @@ ArTur::ArTur(const Point& iniPos, Maze*l, int maxSteps)
     : Robot(iniPos, l, maxSteps)
 {
     srand(time(NULL));
-    roboTex = LoadTexture("Mega1.jpg", false);
+    roboTex = LoadTexture("Mega.jpg", true);
 }
 
 void ArTur::generateSteps()

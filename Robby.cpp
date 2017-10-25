@@ -38,7 +38,7 @@ void Robby::generateSteps()
         }
 
         // QUANDO NÃO DER MAIS PARA IR A DIREITA, ELE VIRA A DIREITA (OU SEJA PARA BAIXO)
-        while(maze->isEmpty(Point(x, y + 1))){ X
+        while(maze->isEmpty(Point(x, y + 1))){
             y += 1;
             steps.push_back(Point(x, y));
             qntPassos++;
