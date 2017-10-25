@@ -97,6 +97,8 @@
 		<Unit filename="GL.h" />
 		<Unit filename="Labirinto.cpp" />
 		<Unit filename="Labirinto.h" />
+		<Unit filename="MakeMaze.cpp" />
+		<Unit filename="MakeMaze.h" />
 		<Unit filename="Maze.h" />
 		<Unit filename="Robby.cpp" />
 		<Unit filename="Robby.h" />

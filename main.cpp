@@ -10,7 +10,7 @@ int main()
     GL::init();
     // Load the test maze
     Maze* lab = new Labirinto();
-    lab->loadMaze("maze1.txt");
+    lab->loadMaze("maze-pacman.txt");
 
     Point posIni = lab->getIniPos();
     cout << "Starting pos: " << posIni.getX() << " , " << posIni.getY() << endl;

@@ -26,7 +26,7 @@ void Labirinto :: loadMaze(string arquivo){
         meuArquivo >> noskipws >> caminho;
         for (int i = 0; i < dimx; i++){
             getline(meuArquivo, linha);
-
+            cout << linha << endl;
             for (int j = 0; j < dimy; j++){
                 lab[i][j] = linha[j];
             }

@@ -1,15 +1,15 @@
-#ifndef LABIRINTO_H
-#define LABIRINTO_H
+#ifndef MAKEMAZE_H
+#define MAKEMAZE_H
 
 #include <fstream>
 #include "Maze.h"
 
 using namespace std;
-
-class Labirinto : public Maze
+class MakeMaze : public Maze
 {
 public:
-    Labirinto();
+    MakeMaze();
+    MakeMaze(const int, int);
     bool isEmpty(const Point& ponto) const;
     int  getWidth();
     int  getHeight();
