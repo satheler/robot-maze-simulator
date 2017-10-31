@@ -110,6 +110,8 @@
 		<Unit filename="GL.h" />
 		<Unit filename="Labirinto.cpp" />
 		<Unit filename="Labirinto.h" />
+		<Unit filename="MainGL.cpp" />
+		<Unit filename="MainGL.h" />
 		<Unit filename="MakeMaze.cpp" />
 		<Unit filename="MakeMaze.h" />
 		<Unit filename="Maze.h" />
@@ -118,6 +120,8 @@
 		<Unit filename="Robot.h" />
 		<Unit filename="RobotB9.cpp" />
 		<Unit filename="RobotB9.h" />
+		<Unit filename="T800.cpp" />
+		<Unit filename="T800.h" />
 		<Unit filename="TestMaze.cpp" />
 		<Unit filename="TestMaze.h" />
 		<Unit filename="Texture.cpp" />

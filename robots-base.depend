@@ -3540,3 +3540,130 @@
 	"MainGL.h"
 	<iostream>
 
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/ArTur.cpp
+	"ArTur.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/ArTur.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Maze.h
+	"Point.h"
+	<string>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Point.h
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Robot.h
+	<vector>
+	"Point.h"
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/GL.cpp
+	"GL.h"
+	<sstream>
+
+1509490497 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/Labirinto.cpp
+	"Labirinto.h"
+	<iostream>
+
+1509492073 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Labirinto.h
+	<fstream>
+	"Maze.h"
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/main.cpp
+	<gtk/gtk.h>
+	"MainGL.h"
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/MainGL.h
+	<iostream>
+
+1509485064 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/MainGL.cpp
+	"Labirinto.h"
+	"ArTur.h"
+	"Robby.h"
+	"T800.h"
+	"GL.h"
+	"MainGL.h"
+	<iostream>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/Robby.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509490634 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/T800.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/MakeMaze.cpp
+	"MakeMaze.h"
+	<iostream>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/MakeMaze.h
+	<fstream>
+	"Maze.h"
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/Robby.cpp
+	"Robby.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/RobotB9.cpp
+	"RobotB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/RobotB9.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509485903 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/T800.cpp
+	"T800.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/TestMaze.cpp
+	"TestMaze.h"
+	<iostream>
+
+1509484838 /home/unipampa/Documentos/Satheler/PP/pptrabalho4/TestMaze.h
+	<fstream>
+	"Maze.h"
+
+1509484838 source:/home/unipampa/Documentos/Satheler/PP/pptrabalho4/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
