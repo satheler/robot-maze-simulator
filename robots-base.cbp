@@ -121,6 +121,8 @@
 		<Unit filename="Robot.h" />
 		<Unit filename="RobotB9.cpp" />
 		<Unit filename="RobotB9.h" />
+		<Unit filename="T800.cpp" />
+		<Unit filename="T800.h" />
 		<Unit filename="TestMaze.cpp" />
 		<Unit filename="TestMaze.h" />
 		<Unit filename="Texture.cpp" />

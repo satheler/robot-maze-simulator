@@ -59,4 +59,3 @@ int Labirinto::getRobot() {
 Point Labirinto::getIniPos() {
     return posIni;
 }
-
