@@ -50,8 +50,8 @@ void Robby::generateSteps()
         }
 
         // QUANDO NÃO DER MAIS PARA A 'NOVA DIREITA' OU CASO ELE NÃO POSSA IR PARA A DIREITA ELE VIRA A ESQUERDA
-        while(maze->isEmpty(Point(x, y - 1))){
-            y -= 1;
+        while(maze->isEmpty(Point(x-1, y))){
+            x -= 1;
             steps.push_back(Point(x, y));
             qntPassos++;
 
@@ -62,8 +62,8 @@ void Robby::generateSteps()
         }
 
         // QUANDO NÃO DER PARA IR MAIS PARA A ESQUERDA, ELE RETORNA PARA A DIREITA
-        while(maze->isEmpty(Point(x - 1, y))){
-            x -= 1;
+        while(maze->isEmpty(Point(x, y-1))){
+            y -= 1;
             steps.push_back(Point(x, y));
             qntPassos++;
 

@@ -26,6 +26,7 @@ private:
     void moveLeft();
     void moveUp();
     void moveDown();
+    void adicionaPasso();
 
     TEX* roboTex;
 };

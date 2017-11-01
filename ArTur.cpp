@@ -1,6 +1,5 @@
 #include "ArTur.h"
 #include "GL.h"
-
 #include <stdlib.h>
 #include <time.h>
 #include <iostream>
@@ -155,7 +154,7 @@ void ArTur::moveDown()
     y+=1;
 }
 
-void adicionaPasso(){
+void ArTur::adicionaPasso(){
     steps.push_back(Point(x,y));
     contStep++;
 }
