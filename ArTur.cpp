@@ -124,6 +124,9 @@ void ArTur::generateSteps()
             }
             break;
         }
+
+        adicionaPasso();
+
         //Verifica se o robo saiu do labirinto
         if(x >= maze->getWidth() || x < 0
                 || y >= maze->getHeight() || y < 0)
@@ -135,27 +138,24 @@ void ArTur::generateSteps()
 void ArTur::moveRight()
 {
     x+=1;
-    steps.push_back(Point(x,y));
-    contStep++;
 }
 
 void ArTur::moveLeft()
 {
     x-=1;
-    steps.push_back(Point(x,y));
-    contStep++;
 }
 
 void ArTur::moveUp()
 {
     y-=1;
-    steps.push_back(Point(x,y));
-    contStep++;
 }
 
 void ArTur::moveDown()
 {
     y+=1;
+}
+
+void adicionaPasso(){
     steps.push_back(Point(x,y));
     contStep++;
 }
