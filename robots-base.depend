@@ -707,9 +707,13 @@
 	<fstream>
 	"Maze.h"
 
-1509288000 source:/home/lucas/Documents/pptrabalho4/main.cpp
+1509495808 source:/home/lucas/Documents/pptrabalho4/main.cpp
+	"Labirinto.h"
+	"ArTur.h"
+	"Robby.h"
+	"GL.h"
+	"FileChooser.h"
 	<gtk/gtk.h>
-	"MainGL.h"
 
 1508843197 /home/lucas/Documents/pptrabalho4/RobotB9.h
 	"Maze.h"
@@ -3538,5 +3542,13 @@
 	"Robby.h"
 	"GL.h"
 	"MainGL.h"
+	<iostream>
+
+1509495714 source:/home/lucas/Documents/pptrabalho4/FileChooser.cpp
+	<gtk/gtk.h>
+	"FileChooser.h"
+	<iostream>
+
+1509495798 /home/lucas/Documents/pptrabalho4/FileChooser.h
 	<iostream>
 

@@ -106,10 +106,13 @@
 		</Linker>
 		<Unit filename="ArTur.cpp" />
 		<Unit filename="ArTur.h" />
+		<Unit filename="FileChooser.cpp" />
+		<Unit filename="FileChooser.h" />
 		<Unit filename="GL.cpp" />
 		<Unit filename="GL.h" />
 		<Unit filename="Labirinto.cpp" />
 		<Unit filename="Labirinto.h" />
+		<Unit filename="MainGL" />
 		<Unit filename="MakeMaze.cpp" />
 		<Unit filename="MakeMaze.h" />
 		<Unit filename="Maze.h" />
