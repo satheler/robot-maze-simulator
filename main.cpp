@@ -1,8 +1,12 @@
 #include "Labirinto.h"
+
 #include "ArTur.h"
 #include "Robby.h"
+#include "T800.h"
+
 #include "GL.h"
 #include "FileChooser.h"
+
 #include <gtk/gtk.h>
 
 using namespace std;
@@ -31,8 +35,7 @@ int main()
         robo = new ArTur(posIni, lab, maxSteps);
         break;
     case 3:
-        cout << "Robo 3" << endl;
-        //robo = new T8000();
+        robo = new T800(posIni, lab, maxSteps);
         break;
     }
 
@@ -42,4 +45,5 @@ int main()
 
     gtk_main();
 
+    return 0;
 }

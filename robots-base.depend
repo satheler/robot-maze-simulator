@@ -581,11 +581,11 @@
 	<time.h>
 	<iostream>
 
-1401228230 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.cpp
+1509472057 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.cpp
 	"GL.h"
 	<sstream>
 
-1401228144 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/GL.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -596,17 +596,17 @@
 	"Robot.h"
 	"Texture.h"
 
-1401227658 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Maze.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Maze.h
 	"Point.h"
 	<string>
 
-1320013446 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Point.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Point.h
 
-1401227694 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robot.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robot.h
 	<vector>
 	"Point.h"
 
-1401227154 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.h
 	<stdio.h>
 	<stdlib.h>
 	<string>
@@ -614,55 +614,58 @@
 	<GL/freeglut.h>
 	<jpeglib.h>
 
-1508811217 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.cpp
+1509472057 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.cpp
 	"RobotB9.h"
 	"GL.h"
 	<stdlib.h>
 	<time.h>
 	<iostream>
 
-1508811214 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/RobotB9.h
 	"Maze.h"
 	"Robot.h"
 	"Texture.h"
 
-1508825150 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.cpp
+1509472057 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.cpp
 	"TestMaze.h"
 	<iostream>
 
-1508811433 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/TestMaze.h
 	<fstream>
 	"Maze.h"
 
-1401227828 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.cpp
+1509472057 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Texture.cpp
 	<math.h>
 	<string.h>
 	<vector>
 	"Texture.h"
 
-1508903340 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/main.cpp
+1509518144 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/main.cpp
 	"Labirinto.h"
-	"RobotB9.h"
+	"ArTur.h"
 	"Robby.h"
+	"T800.h"
 	"GL.h"
+	"FileChooser.h"
+	<gtk/gtk.h>
 
-1508811223 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.h
 	"Maze.h"
 	"Robot.h"
 	"Texture.h"
 
-1508897595 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.cpp
+1509512416 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Robby.cpp
 	"Robby.h"
 	"GL.h"
 	<stdlib.h>
 	<time.h>
 	<iostream>
 
-1508902817 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.h
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.h
 	<fstream>
 	"Maze.h"
 
-1508900811 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.cpp
+1509512688 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/Labirinto.cpp
 	"Labirinto.h"
 	<iostream>
 
@@ -3550,5 +3553,45 @@
 	<iostream>
 
 1509495798 /home/lucas/Documents/pptrabalho4/FileChooser.h
+	<iostream>
+
+1509496407 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/FileChooser.cpp
+	<gtk/gtk.h>
+	"FileChooser.h"
+	<iostream>
+
+1509496407 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/FileChooser.h
+	<iostream>
+
+1509472057 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/MakeMaze.cpp
+	"MakeMaze.h"
+	<iostream>
+
+1509472057 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/MakeMaze.h
+	<fstream>
+	"Maze.h"
+
+1509512416 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/ArTur.cpp
+	"ArTur.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1509512416 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/ArTur.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509519303 /home/gustavo/Documents/Unipampa/PP/pptrabalho4/T800.h
+	"Maze.h"
+	"Robot.h"
+	"Texture.h"
+
+1509522493 source:/home/gustavo/Documents/Unipampa/PP/pptrabalho4/T800.cpp
+	"T800.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
 	<iostream>
 
